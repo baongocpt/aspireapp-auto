@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExecuteTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ExecuteTest(failed)">
+    <parameter name="password" value="@sp1r3app"/>
+    <parameter name="quantity_value" value="55"/>
+    <parameter name="product_name" value="AAAAAA39"/>
+    <parameter name="url" value="https://aspireapp.odoo.com"/>
+    <parameter name="account" value="user@aspireapp.com"/>
+    <classes>
+      <class name="aspireapp.loginpagetests.ExecuteTests">
+        <methods>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- aspireapp.loginpagetests.ExecuteTests -->
+    </classes>
+  </test> <!-- ExecuteTest(failed) -->
+</suite> <!-- Failed suite [ExecuteTestSuite] -->

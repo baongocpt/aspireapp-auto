@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PositiveLogInTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PositiveLogInTest(failed)">
+    <classes>
+      <class name="aspireapp.loginpagetests.PositiveLogInTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="logInTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- aspireapp.loginpagetests.PositiveLogInTests -->
+    </classes>
+  </test> <!-- PositiveLogInTest(failed) -->
+</suite> <!-- Failed suite [PositiveLogInTestSuite] -->
