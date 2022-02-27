@@ -1,8 +1,0 @@
-aspireapp\base\BaseTest.class
-aspireapp\pages\BasePageObject.class
-aspireapp\pages\ManufacturingPage.class
-aspireapp\base\BrowserDriverFactory.class
-aspireapp\pages\InventoryPage.class
-aspireapp\pages\LoginPage.class
-aspireapp\base\TestUtilities.class
-aspireapp\pages\HomePage.class
