@@ -1,5 +1,8 @@
 package aspireapp.base;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class TestUtilities extends BaseTest {
 
 	// STATIC SLEEP 
@@ -9,5 +12,11 @@ public class TestUtilities extends BaseTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public String getCurrentTime() {
+	   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+	   LocalDateTime now = LocalDateTime.now();  
+	   return dtf.format(now);
 	}
 }

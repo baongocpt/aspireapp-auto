@@ -6,7 +6,7 @@
 		<parameter name="url"             value="https://aspireapp.odoo.com"/>
 		<parameter name="account"         value="user@aspireapp.com"/>
 		<parameter name="password"        value="@sp1r3app"/>
-		<parameter name="product_name"    value="AAAAAA52"/>
+		<parameter name="product_name"    value="Product"/>
 		<parameter name="quantity_value"  value="55"/>
 		<classes>
 			<class name="aspireapp.loginpagetests.ExecuteTests" />

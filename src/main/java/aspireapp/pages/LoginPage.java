@@ -17,7 +17,6 @@ public class LoginPage extends BasePageObject {
 	/** Execute log in */
 	public void logIn(String url, String account, String password) {
 		openUrl(url);
-		log.info("Executing LogIn with username [" + account + "] and password [" + password + "]");
 		type(account, usernameLocator);
 		type(password, passwordLocator);
 		click(logInButtonLocator);
