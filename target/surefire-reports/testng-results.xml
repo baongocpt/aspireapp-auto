@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-27T22:38:34 ICT" name="ExecuteTestSuite" finished-at="2022-02-27T22:39:26 ICT" duration-ms="51676">
+    <groups>
+    </groups>
+    <test started-at="2022-02-27T22:38:34 ICT" name="ExecuteTest" finished-at="2022-02-27T22:39:26 ICT" duration-ms="51676">
+      <class name="aspireapp.loginpagetests.ExecuteTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:aspireapp.loginpagetests.ExecuteTests@70be0a2b]" started-at="2022-02-27T22:38:34 ICT" name="setUp" finished-at="2022-02-27T22:38:36 ICT" duration-ms="1562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eb2172]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:aspireapp.loginpagetests.ExecuteTests@70be0a2b]" started-at="2022-02-27T22:38:36 ICT" name="Test1" finished-at="2022-02-27T22:39:26 ICT" duration-ms="49964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://aspireapp.odoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@aspireapp.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[@sp1r3app]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aspireapp.loginpagetests.ExecuteTests@70be0a2b]" started-at="2022-02-27T22:39:26 ICT" name="tearDown" finished-at="2022-02-27T22:39:26 ICT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aspireapp.loginpagetests.ExecuteTests -->
+    </test> <!-- ExecuteTest -->
+  </suite> <!-- ExecuteTestSuite -->
+</testng-results>
